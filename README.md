@@ -12,3 +12,9 @@
 ## Implementacja funkcjonalności
 W obecnej chwili brakuje implementacji metody [ReservationService#reserve](./src/main/java/pl/rowerek/reservation/ReservationService.java) umożliwiającej rezerwację rowerów.
 Zaimplementowanie tej funkcji, po jej implmentacji testy [ReservationServiceTest](./src/test/java/pl/rowerek/reservation/ReservationServiceTest.java) powinny świecić się na zielono.
+
+### Wymagania dotyczące rezerwacji
+
+- Nie można zarezerwować roweru, jeśli jest już zarezerwowany.
+- Nie można zarezerwować roweru, jeśli na niego nałożona jest restrykcja.
+- Nie można zarezerwować roweru, jeśli są na nim aktualnie prowadzone prace techniczne (maintenance).
